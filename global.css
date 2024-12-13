@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .container {
-  @apply mx-auto;
+  @apply flex-1 bg-[#25292e] justify-center items-center;
+}
+
+.text {
+  @apply text-white text-xl font-bold;
 }
