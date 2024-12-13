@@ -3,9 +3,21 @@
 @tailwind utilities;
 
 .container {
-  @apply flex-1 bg-[#25292e] justify-center items-center;
+  @apply flex-1 bg-[#25292e] items-center;
 }
 
 .text {
   @apply text-white text-xl font-bold;
+}
+
+.buttonContainer {
+  @apply w-[320px] h-[68px] mx-[20px] items-center justify-center p-[3px];
+}
+
+.button {
+  @apply rounded-[10px] w-full h-full items-center justify-center flex-row;
+}
+
+.buttonLabel {
+  @apply text-base;
 }
